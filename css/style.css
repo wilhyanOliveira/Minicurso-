@@ -1,0 +1,90 @@
+body 
+{
+    font-family: monospace;
+    background-color:rgb(0, 3, 15) ;
+    color: rgb(0, 3, 15);
+    margin: 0;
+    padding: 0;
+}
+header 
+{
+    background-color: rgb(0, 15, 73);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1
+{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+h2 
+{
+    font-size: 24px;
+    color: rgb(0, 15, 73);
+    margin: none;
+}
+nav 
+{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(0, 3, 15);
+}
+nav a 
+{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.intro_container
+{
+    padding: 20px;
+}
+.intro_container p
+{
+    font-size: 18px;
+    color: rgb(0, 3, 15);
+}
+
+.container 
+{
+    padding: 20px;
+}
+.section 
+{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 15, 73, 0.992);
+}
+
+section details summary 
+{
+    font-weight: bold;
+    color: rgb(0, 15, 73);
+    font-size: 20px;
+}
+
+section details p
+{
+    font-size: 18px;
+}
+section details h2
+{
+    font-weight: bold;
+    color: rgb(0, 15, 73);
+    font-size: 18px;
+}
+
+
+

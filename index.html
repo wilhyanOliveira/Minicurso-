@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minicurso de Lógica de Programação</title>
+
+</head>
+<body>
+
+    <header>
+        <h1>Minicurso de Lógica de Programação</h1>
+        <h3>Minicurso desendovido na cadeira de tópicos avançados em tecnologia da informação</h3>
+    </header>
+
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#algoritmos">Algoritmos</a>
+        <a href="#estrutura">Estruturas Condicionais</a>
+        <a href="#loops">Laços de Repetição</a>
+    </nav>
+
+    <div class="intro_container">
+        <section id="apresentação" class="section">
+            <h2>Minicurso de lógica de programação </h2>
+                <p>Este minicurso foi desenvolvido para a cedeira de tópicos avançados em técnologia da informação, 
+                    ministrada pelo professor Max Pezzin, no curso de Engenharia de Software na Universidade do contestado - Concórida- SC</p>
+        </section>
+
+    </div>
+
+    <div class="container">
+        <section id="introducao" class="section">
+            <details>
+                <summary> Aula 1 :Introdução à Lógica de Programação</summary>
+
+                    <p>A lógica de programação é um conjunto de raciocínios e técnicas utilizadas para desenvolver soluções 
+                    para problemas usando um computador. Em essência, é a forma como pensamos e estruturamos o passo a passo 
+                    para resolver uma tarefa específica de forma eficiente. Quando programamos, estamos aplicando a lógica para dar
+                    instruções ao computador de maneira que ele entenda e execute as ações desejadas.</p>
+
+                    <h2>Por que a Lógica de Programação é importante?</h2>
+
+                    <p>A lógica de programação é a base para qualquer linguagem de programação que você for usar. 
+                        Não importa se você vai programar em Python, Java, C, JavaScript ou qualquer outra linguagem; 
+                        a lógica que você utiliza para resolver um problema é sempre o mesmo. Ter uma boa compreensão de 
+                        lógica de programação torna a construção de algoritmos mais fácil e eficiente.</p>
+        </details>
+        </section>
+
+        <section id="algoritmos" class="section">
+            <details>
+                <summary> Aula 2: Algoritmos</summary>
+
+                    <p>
+                        Um algoritmo nada mais é do que uma sequência lógica, finita e definida de instruções que devem ser 
+                        seguidas para resolver um problema ou executar uma tarefa. Em outras palavras, 
+                        podemos dizer ser uma receita que mostra passo a passo os procedimentos necessários para a resolução de uma tarefa.
+                    </p>
+
+                    <p>
+                        Um algoritmo nada mais é do que uma sequência lógica, finita e definida de instruções que devem ser
+                         seguidas para resolver um problema ou executar uma tarefa. Em outras palavras, 
+                        podemos dizer ser uma receita que mostra passo a passo os procedimentos necessários para a resolução de uma tarefa.
+                    </p>
+
+                    <h2>Exemplo de Algoritmo para trocar uma lâmpada</h2>
+                    
+                    <pre>
+                        Início
+                        1.  Verifica se o interruptor está desligado;
+                         2. Procura uma lâmpada nova;
+                         3. Pega uma escada;
+                         4. Leva a escada até o local;
+                         5. Posiciona a escada;
+                         6. Sobe os degraus;
+                         7. Para na altura apropriada;
+                         8. Retira a lâmpada queimada;
+                         9. Coloca a lâmpada nova;
+                         10. Desce da escada;
+                         11. Aciona o interruptor;
+                         
+                           Se a lâmpada não acender, então:
+                               11.1. Retira a lâmpada queimada;
+                               11.2. Coloca outra lâmpada nova
+                           Senão
+                         12. Tarefa terminada;
+                </pre>
+
+                <p>
+                    Os algoritmos são muito utilizados a área de programação, descrevendo as etapas que precisam ser efetuadas 
+                    para que um programa execute as tarefas que lhe são designadas. Existem diversas formas de escrever um 
+                    algoritmo, podendo ser citadas o pseudocódigo (ou português estruturado), fluxograma, diagrama de Chapin 
+                    e descrição narrativa.
+                    A sequência escrita no exemplo da troca da lâmpada estava em descrição narrativa, por exemplo. 
+                </p>
+            </details>
+        </section>
+
+        <section id="estrutura" class="section">
+            <details>
+                <summary>Aula 3: Estruturas Condicionais</summary>
+                    <p>
+                        As estruturas condicionais são recursos oferecidos pelas linguagens para que seja possível verificar uma condição e 
+                        alterar o fluxo de execução do algoritmo. Assim, é possível definir uma ação específica para diferentes cenários e obter 
+                        exatamente o resultado esperado durante o desenvolvimento de um site ou de uma aplicação.
+                        O uso das estruturas condicionais é praticamente indispensável na maioria dos projetos, 
+                        já que elas são capazes de realizar diferentes funções de forma prática.
+                    </p>
+
+                    <p>
+                        Em geral, o funcionamento das estruturas condicionais depende apenas de um algoritmo simples iniciado pelo comando ‘SE’. 
+                        Nele, ainda é preciso declarar a condição que será analisada e os blocos de comando que o programa executará em cada cenário 
+                        possível. E é justamente de acordo com o número de possibilidades que as estruturas condicionais são classificadas em simples 
+                        e compostas.
+                    </p>
+                    
+                    <h2>Estrutura condicionais simples</h2>
+                    
+                    <p>
+                        As condicionais simples são aquelas em que é preciso declarar apenas o que será executado caso a condição definida seja 
+                        satisfeita. Isso quer dizer que, se o retorno da condicional for negativo, 
+                        sua execução é apenas encerrada e o algoritmo prossegue para interpretar as linhas de 
+                        código presentes após o final da estrutura.
+                    </p>
+                
+                    <h2>exemplo de condicionais simples</h2>
+                    <pre>
+                        Início
+
+                        Leia idade
+
+                        Se idade >= 18 então
+
+                           Escreva "Você é maior de idade!"
+
+                        Fim
+                    </pre>
+
+                    <h2>Estruturas condicionais compostas</h2>
+
+                    <p>
+                        as condicionais compostas permitem que sejam programados um comportamento para quando o retorno for positivo e 
+                        outro diferente para quando a pendência não for satisfeita. Essa segunda possibilidade é 
+                        representada pelo comando ‘SENAO’, que é declarado após o fechamento do primeiro caso.
+                    </p>
+
+                    <h2>Exemplo de condicionais compostas</h2>
+
+                    <pre>
+                        Início
+
+                        Leia idade
+
+                        Se idade >= 16 então
+
+                           Escreva "Você pode votar!"
+
+                        Senão
+
+                           Escreva "Você não pode votar!"
+                        
+                        Fim
+                    </pre>
+            </details>
+        </section>
+
+        <section id="loops" class="section">
+            <details>
+                <summary>Aula 4:Laços de Repetição</summary>
+            
+                <p>
+                    Laços de repetição, também conhecidos como laços de iteração ou simplesmente loops, são comandos que permitem iteração de código,
+                    ou seja, que comandos presentes no bloco sejam repetidos diversas vezes. Através de laços de repetição é possível
+                    criar programas que percorram vetores, analisando individualmente cada elemento,
+                    e até mesmo criar trechos de código que sejam repetidos até que certa condição estabelecida seja cumprida.
+                </p>
+                <p>
+                    Existem quatro tipos principais de laços de repetição: Enquanto (while), Faça Enquanto(Do-while), Para (for) e Para Cada (for-each).
+                     Cada um deles tem suas próprias características e usos ideais.
+                </p>
+
+                <h2>Laço While (Enquanto)</h2>
+                <p>
+                    O laço while é uma estrutura de controle que executa um bloco de código enquanto uma condição específica for verdadeira.
+                    A condição é verificada antes da execução do bloco de código.
+                    Esta strutura é ideal quando você não sabe quantas vezes precisa repetir um bloco de código, 
+                    mas sabe que deve continuar enquanto uma condição for verdadeira.
+                </p>
+                <pre>
+
+                    Início
+
+                        numero = 1
+   
+                        Enquanto numero <= 5 faça
+      
+                            Escreva numero
+      
+                        numero = numero + 1
+
+                    Fim
+                </pre>
+
+                <h2>Laço Do-while (Faça Enquanto)</h2>
+                <p>
+                    O laço Do-while ou repita, assim como o laço while, determina que enquanto uma determinada condição for válida o bloco de código será executado. 
+                    Entretanto, Do-while testa a condição após executar o código, assim sendo, 
+                    mesmo que a condição seja considerada inválida no primeiro teste o bloco será executado pelo menos uma vez.
+                </p>
+                <p>
+                    O do-while é ideal quando você precisa executar um bloco de código pelo menos uma vez e, em seguida,
+                     repetir enquanto uma condição for verdadeira.
+                </p>
+
+                <h3>Exemplo de Laço "Faça enquanto" (do-While):</h3>
+                <pre>
+                    Início
+   
+                        numero = 1
+   
+                        Faça
+   
+                            Escreva numero
+   
+                            numero = numero + 1
+   
+                        Enquanto numero <= 5
+
+                    Fim
+                </pre>
+            
+                <h2>Laço For (para)</h2>
+                <p>
+                    O laço for é uma estrutura de controle que executa um bloco de código um número específico de vezes. 
+                    Ele é composto por três partes: inicialização, condição e incremento.
+                </p>
+                <p>
+                    O laço For, permite que uma variável contadora seja testada e incrementada a cada iteração, 
+                    sendo essas informações definidas na chamada do comando. 
+                    O comando for recebe como entrada uma variável contadora, a condição e o valor de incrementação.
+                </p>
+                <p>
+                    O laço For é ideal quando você sabe exatamente quantas vezes precisa repetir um bloco de código.
+                </p>
+                <h3>Exemplo de Laço "Para" (FOR):</h3>
+                <pre>
+                    Início
+   
+                        Para numero de 1 até 5 faça
+   
+                            Escreva numero
+   
+                        Fim Para
+
+                    Fim
+                </pre>
+
+                <h2>Laço For-each (Para Cada)</h2>
+
+                <p>
+                    O comando foreach diferente do comando while, realiza iterações sobre coleções. Sendo assim, a cada “volta” do laço, 
+                     a variável definida na chamada do foreach assume o valor de um dos elementos da coleção. 
+                    A execução do comando é finalizada quando chega ao fim da coleção ou através de um comando de interrupção,
+                </p>
+                <P>
+                    O laço foreach é uma estrutura de controle que percorre todos os elementos de uma coleção, como um array ou uma lista, 
+                    este, sendo ideal quando você precisa percorrer todos os elementos de uma coleção, sem se preocupar com o número de elementos ou com o controle do índice atual.
+                </P>
+                <h3>Exemplo de Laço "Para Cada" (for-each):</h3>
+                <pre>
+                    Início
+  
+                    lista = [1, 2, 3, 4, 5]
+  
+                        Para cada numero em lista faça
+  
+                            Escreva numero
+  
+                        Fim Para
+
+                    Fim
+                </pre>
+            </details>
+        </section>
+    </div>
+
+</body>
+</html>

@@ -19,6 +19,8 @@
     <nav>
         <a href="#introducao">Introdução</a>
         <a href="#algoritmos">Algoritmos</a>
+        <a href="#variaveis">Variaveis</a>
+        <a href="#constantes">Constantes</a>
         <a href="#estrutura">Estruturas Condicionais</a>
         <a href="#loops">Laços de Repetição</a>
     </nav>
@@ -100,9 +102,100 @@
             </details>
         </section>
 
+        <section id="variaveis" class="section">
+            <details>
+                <summary> Aula 3 : Variaveis</summary>
+
+                    <p>Uma variável representa um contêiner ou espaço na memória física ou virtual de um computador, 
+                        onde diferentes tipos de dados (valores) são armazenados durante a execução de um programa. 
+                        A cada variável é atribuído um nome descritivo ou identificador que se refere ao valor salvo. 
+                        Os dados armazenados podem mudar de valor ou serem constantes.
+
+                        As variáveis são usadas para salvar e recuperar dados, representar valores existentes e atribuir novos. 
+                        Elas permitem que os programadores se refiram a um valor com um nome representativo em vez de ter que se lembrar desse valor, 
+                        o que facilita muitas tarefas complexas.
+                        
+                        Assim, você pode usar valores armazenados em cálculos, operações de entrada e saída, 
+                        comparações e outros tipos de processamento de dados.</p>
+
+                        <h2>Uma variável na programação é caracterizada por:</h2>
+
+                        <p>
+                            O nome exclusivo que a identifica dentro do programa
+                            O valor salvo que pode mudar durante a execução do programa
+                            O tipo de dado armazenado, como números, textos, estados booleanos e assim por diante.
+                            A extensão, que pode ser global, em caso de ser acessada de qualquer lugar do programa,
+                            ou local, quando só puder ser acessada dentro de um bloco de código
+                        </p>
+
+                    <h2>Exemplo de variaveis</h2>
+
+                    <pre>
+                        string nome = “Juan”; // é declarada uma variável do tipo cadeia de caracteres chamada nome e a ela é atribuído um valor
+
+                        int idade = 25; // é declarada uma variável do tipo numérico inteiro chamada idade e a ela é atribuído um valor
+
+                        float pontosGanhos = 7.35; // é declarada uma variável do tipo flutuante chamada pontosGanhos e é atribuído um valor
+                    </pre>
+            </details>
+        </section>
+
+        <section id="constantes" class="section">
+            <details>
+                <summary> Aula 4 : Constantes</summary>
+
+                    <p>Ao contrário das variáveis, que podemos alterar o valor conforme a necessidade do algoritmo a ser desenvolvido, 
+                    as constantes precisam ser inicializadas e não podem ter o seu valor alterado.
+
+                    Constante é um determinado valor fixo que não se modifica ao longo do tempo, isto é, durante a execução de um programa. 
+                    Se você possui um dado que não deverá ser alterado ao longo da execução do programa, então este dado deverá ser declarado como uma constante.
+                    Nesse sentido o que distingue uma constante de uma variável é a declaração da palavra reservada final antes do identificador.
+                    </p>
+
+                    <p>
+                        Assim, constantes são áreas reservadas para armazenamento de uma informação 
+                        que não se alterará em todo o ciclo de vida do algoritmo, ou seja, tem sempre o mesmo valor dentro de um sistema. 
+                        Um exemplo disso são as constantes da biblioteca matemática de qualquer linguagem de programação; outro exemplo se 
+                        refere ao valor de PI que é o mesmo(3,14) e, 
+                        a menos que alguém prove o contrário, ele não necessita ser alterado
+                    </p>
+
+                        <h2>Declaração de uma constante</h2>
+
+                        <pre>
+                            const int Constante_AnoNascimento = 1990;
+                        </pre>
+
+                        <h2>Exemplo de aplicação de constantes</h2>
+
+                        <pre>
+                            algoritmo pi;
+ 
+                        inicio
+
+                            real PI = 3.14; //constante
+
+                            real x;
+
+                            real result;
+
+                                escreva ( “por favor, digite o valor do número x”) ;
+ 
+                                leia (x);
+
+                            result <-- x * PI;
+ 
+                            escreva (“ o resultado é:”, result);
+
+                        fim
+                        </pre>
+
+            </details>
+        </section>
+
         <section id="estrutura" class="section">
             <details>
-                <summary>Aula 3: Estruturas Condicionais</summary>
+                <summary>Aula 5 : Estruturas Condicionais</summary>
                     <p>
                         As estruturas condicionais são recursos oferecidos pelas linguagens para que seja possível verificar uma condição e 
                         alterar o fluxo de execução do algoritmo. Assim, é possível definir uma ação específica para diferentes cenários e obter 
@@ -170,7 +263,7 @@
 
         <section id="loops" class="section">
             <details>
-                <summary>Aula 4:Laços de Repetição</summary>
+                <summary>Aula 6:Laços de Repetição</summary>
             
                 <p>
                     Laços de repetição, também conhecidos como laços de iteração ou simplesmente loops, são comandos que permitem iteração de código,
